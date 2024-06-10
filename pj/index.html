@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luluh Murder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LULUH MURDER</h1>
+    </header>
+    <div class="container">
+        <div id="question-container">
+     <h1 id="question">Pergunta</h1>
+            <div class="buttons">
+                <button onclick="answerQuestion(true)">Sim</button>
+                <button onclick="answerQuestion(false)">Não</button>
+            </div>
+     </div>
+        <div id="result-container" class="hidden">
+            <h1 id="result"></h1>
+            <button onclick="resetQuiz()">Reiniciar</button>
+        </div>
+    </div>
+    <footer>  <p>&copy; 2024 Luluh Murder. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
